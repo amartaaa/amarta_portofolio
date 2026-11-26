@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="is-loading">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Gita Amarta</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Hubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============================================================
+     SPLASH SCREEN
+     ============================================================ -->
+  <div class="splash" id="splash">
+    <div class="splash__glow"></div>
+    <span class="splash__mark">✷</span>
+    <p class="splash__text">
+      <span style="animation-delay:.05s">Upgrade</span>
+      <span style="animation-delay:.15s">your</span>
+      <span style="animation-delay:.25s">visual</span>
+      <span style="animation-delay:.35s">with</span>
+      <span class="accent" style="animation-delay:.48s">Shemarpy</span>
+    </p>
+    <div class="splash__bar"><span></span></div>
+  </div>
+
+  <nav class="nav">
+    <div class="nav__brand">Gita Amarta</div>
+    <div class="nav__links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+     SECTION 1 — COVER
+     ============================================================ -->
+  <section class="cover">
+    <div class="cover__top">
+      <div class="cover__handle">@SHEMARPY</div>
+      <div class="cover__year">2026</div>
+    </div>
+
+    <div class="grad-block cover__deco deco-1"></div>
+    <div class="grad-block cover__deco deco-2"></div>
+    <div class="grad-block cover__deco deco-3"></div>
+    <div class="grad-block cover__deco deco-4"></div>
+
+    <div class="cover__content">
+      <span class="cover__scribble">Graphic Designer</span>
+      <h1 class="cover__title">
+        P<span class="italic-f">o</span>Rtf<span class="italic-f">o</span>lio
+      </h1>
+      <p class="cover__by">by Gita Amarta</p>
+    </div>
+
+    <figure class="cover__visual">
+      <img src="images/stephen.jpg" alt="Poster design by Gita Amarta">
+      <figcaption>Featured work <span>2025</span></figcaption>
+    </figure>
+
+    <span class="chip chip-1">Create</span>
+    <span class="chip chip-2 chip--light">Grow</span>
+    <span class="chip chip-3 chip--light">Innovate</span>
+
+    <div class="cover__scroll"><span class="line"></span> scroll to explore my work</div>
+  </section>
+
+  <!-- ============================================================
+     SECTION 2 — ABOUT
+     ============================================================ -->
+  <section class="about" id="about">
+    <div class="reveal">
+      <div class="about__label">
+        <span class="num">01</span>
+        <span class="rule"></span>
+      </div>
+      <h2>About <em>me</em></h2>
+    </div>
+
+    <div class="about__body reveal reveal-delay-2">
+      <p>
+        My design style blends bold typography, dynamic layouts, and mood-driven visuals to create impactful visual
+        communication. Inspired by contemporary digital culture and modern editorial aesthetics, I explore dramatic
+        compositions, photo manipulation, and striking color treatments to produce expressive and memorable designs
+      </p>
+      <p>
+        While I have a distinctive creative style, I am also adaptable and able to tailor each design to meet the unique
+        needs, goals, and preferences of every client.
+      </p>
+
+      <div class="about__tools">
+        <span class="tool-tag">Photoshop</span>
+        <span class="tool-tag">Inkscape</span>
+<!--         <span class="tool-tag">Figma</span> -->
+        <span class="tool-tag">Canva</span>
+        <span class="tool-tag">After Effects</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     SECTION 3 — SELECTED WORK
+     ============================================================ -->
+  <section class="work" id="work">
+    <div class="work__header reveal">
+      <div class="work__eyebrow-row">
+        <span class="eyebrow">@shemarpy</span>
+        <span class="sig">Gita Amarta</span>
+      </div>
+      <h2>Selected <em>Work</em></h2>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="poster">Poster Design</button>
+        <button class="filter-btn" data-filter="book">Book Cover</button>
+        <button class="filter-btn" data-filter="social-media">Social Media Design</button>
+      </div>
+    </div>
+
+    <div class="gallery">
+
+      <!-- CARD 1 -->
+      <article class="card reveal reveal-delay-1" data-cat="poster">
+        <div class="card__photo" data-hint="Place file in images/work-1.jpg and update src">
+          <span class="card__tag">Poster</span>
+          <img src="images/burning.jpg" alt=""
+            onerror="this.remove(); this.parentElement.classList.add('empty')">
+        </div>
+        <div class="card__info">
+        <!--   <h3>Work Title 1</h3> -->
+          <span>2026</span>
+        </div>
+      </article>
+
+      <!-- CARD 2 -->
+      <article class="card reveal reveal-delay-2" data-cat="book">
+        <div class="card__photo" data-hint="Place file in images/work-2.jpg and update src">
+          <span class="card__tag">Book Cover</span>
+          <img src="images/prince.jpg" alt=""
+            onerror="this.remove(); this.parentElement.classList.add('empty')">
+        </div>
+        <div class="card__info">
+         <!--  <h3>Work Title 2</h3> -->
+          <span>2026</span>
+        </div>
+      </article>
+
+      <!-- CARD 3 -->
+      <article class="card reveal reveal-delay-3" data-cat="social-media">
+        <div class="card__photo" data-hint="Place file in images/work-3.jpg and update src">
+          <span class="card__tag">Social Media Design</span>
+          <img src="images/all.jpg" alt=""
+            onerror="this.remove(); this.parentElement.classList.add('empty')">
+        </div>
+        <div class="card__info">
+          <!-- <h3>Work Title 3</h3> -->
+          <span>2025</span>
+        </div>
+      </article>
+
+      <!-- CARD 4 -->
+      <article class="card reveal reveal-delay-4" data-cat="poster">
+        <div class="card__photo" data-hint="Place file in images/work-4.jpg and update src">
+          <span class="card__tag">Poster</span>
+          <img src="images/stephen.jpg" alt=""
+            onerror="this.remove(); this.parentElement.classList.add('empty')">
+        </div>
+        <div class="card__info">
+          <!-- <h3>Work Title 4</h3> -->
+          <span>2025</span>
+        </div>
+      </article>
+
+      <!-- CARD 5 -->
+      <article class="card reveal reveal-delay-5" data-cat="book">
+        <div class="card__photo" data-hint="Place file in images/work-5.jpg and update src">
+          <span class="card__tag">Book Cover</span>
+          <img src="images/deep.jpg" alt=""
+            onerror="this.remove(); this.parentElement.classList.add('empty')">
+        </div>
+        <div class="card__info">
+          <!-- <h3>Work Title 5</h3> -->
+          <span>2025</span>
+        </div>
+      </article>
+
+      <!-- CARD 6 -->
+      <article class="card reveal reveal-delay-6" data-cat="poster">
+        <div class="card__photo" data-hint="Place file in images/work-6.jpg and update src">
+          <span class="card__tag">Poster</span>
+          <img src="images/touched.jpg" alt=""
+            onerror="this.remove(); this.parentElement.classList.add('empty')">
+        </div>
+        <div class="card__info">
+          <!-- <h3>Work Title 6</h3> -->
+          <span>2024</span>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="work__badge">06</div>
+  </section>
+
+  <!-- ============================================================
+     SECTION 4 — ACHIEVEMENTS
+     ============================================================ -->
+  <section class="work achievements" id="achievements">
+    <div class="work__header reveal">
+      <div class="work__eyebrow-row">
+        <span class="eyebrow">@shemarpy</span>
+        <span class="sig">Gita Amarta</span>
+      </div>
+      <h2>Achievements</h2>
+    </div>
+
+    <div class="gallery achievements__gallery">
+      <article class="card reveal">
+        <div class="card__photo">
+          <span class="card__tag">Competition Winner</span>
+          <img src="images/stephen.jpg" alt="Poster design that won a competition">
+        </div>
+        <div class="card__info">
+          <h3>Competition Winner - Photoshop Design Challenge 2023</h3>
+          <span>2023</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============================================================
+     SECTION 5 — CONTACT
+     ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="contact__deco"></div>
+    <div class="contact__inner reveal">
+      <span class="eyebrow">Let's Collaborate</span>
+      <h2>Contact Me<br><a href="mailto:shemarpy@gmail.com">shemarpy@gmail.com</a></h2>
+      <div class="contact__socials">
+        <a href="https://instagram.com/shemarpy">Instagram</a>
+        <a href="mailto:shemarpy@gmail.com">Gmail</a>
+        <a href="https://github.com/amartaaa">GitHub</a>
+        <a href="https://www.wattpad.com/shemarpy">Wattpad</a>
+      </div>
+      <div class="contact__foot">
+        <span>© 2026 Gita Amarta</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hubungkan file JS eksternal -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
