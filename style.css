@@ -184,7 +184,7 @@ a {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
   line-height: 0.86;
-  font-size: clamp(3.4rem, 12vw, 10.5rem);
+  font-size: 16px;
   color: var(--wine);
   position: relative;
   display: flex;
